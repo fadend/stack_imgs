@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Stack images</title>
+    <link rel="stylesheet" href="stack_imgs.css" />
+  </head>
+  <body>
+    <label>
+      Select the image files to stack:
+      <input
+        type="file"
+        accept="image/jpeg,image/png"
+        multiple="multiple"
+        id="files"
+      />
+    </label>
+    <div id="carousel"></div>
+    <div>
+      <a id="img-link" download="stack.png"></a>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="stack_imgs.js"></script>
+  </body>
+</html>
